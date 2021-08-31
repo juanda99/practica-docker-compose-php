@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Añadir usuario</title>
+</head>
+
+<body>
+  <h1>PRÁCTICA USUARIOS</h1>
+  <a href="./list.php">
+    <h2>Ver listado de usuarios</h2>
+  </a>
+  <h2>Insertar nuevo usuario</h2>
+  <form action="insert.php" method="post">
+    <p>
+      <label for="firstName">Nombre:</label>
+      <input type="text" name="first_name" id="firstName">
+    </p>
+    <p>
+      <label for="lastName">Apellido:</label>
+      <input type="text" name="last_name" id="lastName">
+    </p>
+    <p>
+      <label for="emailAddress">Correo electrónico:</label>
+      <input type="text" name="email" id="emailAddress">
+    </p>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+
+</html>
