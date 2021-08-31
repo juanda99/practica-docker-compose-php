@@ -3,12 +3,12 @@ services:
   php:
     container_name: php
     build:
-      context: ./code
+      context: ./PDO-code
       dockerfile: Dockerfile
     depends_on:
       - db
     volumes:
-      - ./code:/var/www/html/
+      - ./PDO-code:/var/www/html/
     ports:
       - 8000:80
     environment:
