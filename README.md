@@ -16,3 +16,8 @@
 - Modifica el servicio php para que sea posible el acceso a BBDD mediante PDO
 - Comprueba el funcionamiento
 - Modifica la imagen del servicio php para que no use volúmenes y súbela a Docker Hub
+
+
+### Infrastructure model
+
+![Infrastructure model](.infragenie/infrastructure_model.png)
